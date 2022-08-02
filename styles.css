@@ -11,6 +11,13 @@ html, body{
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
 }
+/* header styles */
+header{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 2fr 3fr;
+    gap: 10px;
+}
 /* sidebar styles*/
 aside{
     background-color: #1E90FF;
