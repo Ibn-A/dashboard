@@ -17,6 +17,29 @@ header{
     grid-template-columns: 5fr 2fr;
     grid-template-rows: 2fr 3fr;
     gap: 10px;
+    padding: 15px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.search-bar img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+button{
+    background-color: white;
+    border: none;
+}
+.search-bar .search-input{
+    background-color: #bccbde;
+    border-radius: 60px;
+    border: none;
+    width: 70%;
+    align-items: center;
+    height: 1.5rem;
 }
 /* sidebar styles*/
 aside{
