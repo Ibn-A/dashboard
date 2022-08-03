@@ -15,10 +15,12 @@ html, body{
 header{
     display: grid;
     grid-template-columns: 5fr 2fr;
-    grid-template-rows: 2fr 3fr;
+    grid-template-rows: 1fr 1fr;
     gap: 10px;
     padding: 15px;
+    margin: 10px;
 }
+/* Search bar section*/
 .search-bar{
     display: flex;
     align-items: center;
@@ -29,7 +31,7 @@ header{
     width: 1.5rem;
 }
 
-button{
+.search-bar button{
     background-color: white;
     border: none;
 }
@@ -40,6 +42,17 @@ button{
     width: 70%;
     align-items: center;
     height: 1.5rem;
+}
+/* user-info section*/
+.user-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    gap: 1rem;
+    align-items: center;
+}
+.user-info img{
+    height: 2rem;
+    width: 2rem;
 }
 /* sidebar styles*/
 aside{
