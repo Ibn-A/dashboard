@@ -63,6 +63,23 @@ header{
     height: 3rem;
     width: 3rem;
 }
+/* buttons section*/
+.buttons{
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+.buttons button{
+    background-color: #1E90FF;
+    color: white;
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 /* sidebar styles*/
 aside{
     background-color: #1E90FF;
