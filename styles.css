@@ -54,6 +54,15 @@ header{
     height: 2rem;
     width: 2rem;
 }
+/* welcome section */
+.welcome{
+    display: flex;
+    gap: 1rem;
+}
+.welcome img{
+    height: 3rem;
+    width: 3rem;
+}
 /* sidebar styles*/
 aside{
     background-color: #1E90FF;
